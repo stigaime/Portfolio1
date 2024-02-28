@@ -1,0 +1,350 @@
+
+.ftsize1 {
+  font-size: 20px;
+}
+
+.pdaime {
+  padding-top: 25rem;
+ font-size: 7rem;
+
+    color: #00000000;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: white;
+}
+.padCarou {
+  padding-top: 15rem;
+padding-left: 10rem;
+ 
+
+}
+
+.borderImg {
+  border: solid rgb(120, 76, 139) 5px;
+}
+
+.pcarou {
+  padding-top: 15rem;
+ 
+}
+
+.carousel-text {
+  color: #00000000;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: rgb(161, 107, 184);
+}
+.pdfutur {
+  padding-bottom: 25rem;
+ font-size: 4rem;
+ color:rgb(120, 76, 139) ;
+ 
+}
+.bgblack {
+  background-image: url(/img/adrien-olichon-RCAhiGJsUUE-unsplash.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.d-flex {
+  display: flex;
+}
+
+.bg-bodybl {
+    background-color: #000;
+}
+.bg-navb {
+    background-color: rgb(63, 36, 75);
+
+}
+.img-pri {
+    border-radius: 50%;
+  
+}
+
+
+.h-100 {
+    height: 100px;
+}
+
+
+
+
+
+.w-img {
+    width: 20%;
+}
+/* texte machine a ecrire (hi, i am aimé, etc.. */
+.w-mang {
+    display: flex;
+    justify-content: center;
+padding-bottom: 2rem;
+
+}
+.w-20 {
+  width: 40%;
+  padding-right: 20rem;
+  border-radius: solid, ;
+}
+
+.typing-demo {
+  width: 17ch;
+  animation: typing 2s steps(22), blink .5s step-end infinite alternate;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 3px solid;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-size: 2em;
+  color: rgb(255, 255, 255);
+}
+
+@keyframes typing {
+  from {
+    width: 0
+  }
+}
+
+@keyframes blink {
+  50% {
+    border-color: transparent
+  }
+}
+
+
+
+.projetimg {
+  background-color: #000;
+  display: block;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  margin: 10px;
+  max-width: 44%;
+  min-width: 230px;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  width: 100%;
+
+}
+
+.projetimg * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.35s ease;
+  transition: all 0.35s ease;
+}
+
+.projetimg:before,
+.projetimg:after {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  -webkit-transition: all 0.35s ease;
+  transition: all 0.35s ease;
+  background-color: #000000;
+  border-left: 3px solid rgb(63, 36, 75);
+  border-right: 3px solid rgb(63, 36, 75);
+  content: '';
+  opacity: 0.9;
+  z-index: 1;
+}
+
+.projetimg:before {
+  -webkit-transform: skew(45deg) translateX(-155%);
+  transform: skew(45deg) translateX(-155%);
+}
+
+.projetimg:after {
+  -webkit-transform: skew(45deg) translateX(155%);
+  transform: skew(45deg) translateX(155%);
+}
+
+.projetimg img {
+  backface-visibility: hidden;
+  max-width: 100%;
+  vertical-align: top;
+}
+
+.projetimg figcaption {
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  z-index: 2;
+  -webkit-transform: translate(-50%, -50%) scale(0.5);
+  transform: translate(-50%, -50%) scale(0.5);
+  opacity: 0;
+  -webkit-box-shadow: 0 0 10px #000000;
+  box-shadow: 0 0 10px #000000;
+}
+
+.projetimg h3 {
+  background-color: #000000;
+  border: 2px solid rgb(63, 36, 75);
+  color: #fff;
+  font-size: 1em;
+  font-weight: 600;
+  letter-spacing: 1px;
+  margin: 0;
+  padding: 5px 10px;
+  text-transform: uppercase;
+}
+
+.projetimg a {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 3;
+}
+
+.projetimg:hover > img,
+.projetimg.hover > img {
+  opacity: 0.5;
+}
+
+.projetimg:hover:before,
+.projetimg.hover:before {
+  -webkit-transform: skew(45deg) translateX(-55%);
+  transform: skew(45deg) translateX(-55%);
+}
+
+.projetimg:hover:after,
+.projetimg.hover:after {
+  -webkit-transform: skew(45deg) translateX(55%);
+  transform: skew(45deg) translateX(55%);
+}
+
+.projetimg:hover figcaption,
+.projetimg.hover figcaption {
+  -webkit-transform: translate(-50%, -50%) scale(1);
+  transform: translate(-50%, -50%) scale(1);
+  opacity: 1;
+}
+
+/* CONTACT !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+
+/* CONTACT !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+
+
+
+
+input[type=text], select, textarea {
+    width: 100%; 
+    padding: 12px; 
+    border: 5px solid rgb(63, 36, 75); 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical 
+  }
+
+  input[type=email], select, textarea {
+    width: 100%; 
+    padding: 12px; 
+    border: 5px solid rgb(63, 36, 75); 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical 
+  }
+  
+
+  input[type=submit] {
+    background-color: rgb(63, 36, 75);
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+ 
+  input[type=submit]:hover {
+    background-color: rgb(63, 36, 75);
+  }
+  
+ 
+  .container {
+    border-radius: 5px;
+
+    padding: 20px;
+  }
+
+  .text-ct {
+    color: rgb(161, 107, 184);
+  }
+
+  @media screen and (min-width: 400px) and (max-width: 575.99px) {
+    .pdaime {
+      padding-top: 12rem;
+     font-size: 3rem;
+    
+        color: #00000000;
+        -webkit-text-stroke-width: 2px;
+        -webkit-text-stroke-color: white;
+       }
+
+       .pdfutur {
+        padding-bottom: 15rem;
+       font-size: 2rem;
+       color:rgb(120, 76, 139) ;
+       
+      }
+      .pcarou {
+        padding-top: 0rem;
+        padding-left: 2rem;
+      }
+      .ftsize2 {
+        font-size: 17px ;
+
+      }
+      .ftsize1 {
+        font-size: 12px;
+      }
+      .ftsize3 {
+        font-size: 17px;
+      }
+
+
+  }
+  @media screen and (min-width: 400px) and (max-width : 699.98px) {
+    .pdaime {
+      padding-top: 12rem;
+     font-size: 3rem;
+    
+        color: #00000000;
+        -webkit-text-stroke-width: 2px;
+        -webkit-text-stroke-color: white;
+       }
+
+       .pdfutur {
+        padding-bottom: 15rem;
+       font-size: 2rem;
+       color:rgb(120, 76, 139) ;
+       
+      }
+      .pcarou {
+        padding-top: 0rem;
+        padding-left: 2rem;
+      }
+      .ftsize2 {
+        font-size: 17px ;
+
+      }
+      .ftsize1 {
+        font-size: 10px;
+      }
+      .ftsize3 {
+        font-size: 17px;
+      }
+  }
+      @media screen and (min-width : 374px) and  (max-width : 399.98px) {
+        .ftsize1 {
+          font-size: 10px;
+        }
+
+      }
+
+  
